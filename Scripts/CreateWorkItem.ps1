@@ -27,12 +27,12 @@ $body="[
     `"path`": `"/fields/System.Title`",
     `"value`": `"$($WorkItemTitle)`"
   },
-  {
-    `"op`": `"add`",
-    `"path`": `"/fields/System.AssignedTo`",
-    `"from`": null,
-    `"value`": `"chirumamilla.a@ad.infosys.com`"
-  },
+#   {
+#     `"op`": `"add`",
+#     `"path`": `"/fields/System.AssignedTo`",
+#     `"from`": null,
+#     `"value`": `"chirumamilla.a@ad.infosys.com`"
+#   },
   {
     `"op`": `"add`",
     `"path`": `"/fields/System.Description`",
