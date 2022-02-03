@@ -24,8 +24,8 @@ function GetUrl() {
     return $areaUrl
 }
 
-$orgUrl = "https://dev.azure.com/<Your Organization>"
-$personalToken = "<Your PAT>"
+$orgUrl = "https://dev.azure.com/shivaorg1"
+$personalToken = "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"
 
 Write-Host "Initialize authentication context" -ForegroundColor Yellow
 $token = [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes(":$($personalToken)"))
