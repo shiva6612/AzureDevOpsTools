@@ -31,7 +31,7 @@ $body="[
     `"op`": `"add`",
     `"path`": `"/fields/System.AssignedTo`",
     `"from`": null,
-    `"value`": `"chirumamilla.a@ad.infosys.com`"
+    `"value`": `"gunda.reddy01@ad.infosys.com`"
   },
   {
     `"op`": `"add`",
