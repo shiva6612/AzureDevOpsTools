@@ -1,5 +1,5 @@
 #Authentication in Azure DevOps
-$AzureDevOpsPAT = 'coslmegb525wbm7trjlzxvzjzvq4kyqdhsfrdnzo2msz3oseaplq'
+$AzureDevOpsPAT = 'tgjb6lfbzdxm3m5vypkdgtft6lzfvm3aeurfsqaknyfgionjabxa'
 $AzureDevOpsAuthenicationHeader = @{Authorization = 'Basic ' + [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(":$($AzureDevOpsPAT)")) }
 
 $OrganizationName = "shivaorg1"
